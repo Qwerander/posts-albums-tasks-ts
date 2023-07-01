@@ -1,0 +1,37 @@
+.item svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.item svg:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.item ul {
+    text-align: right;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.done {
+    text-decoration: line-through
+}

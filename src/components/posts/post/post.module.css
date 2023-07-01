@@ -1,0 +1,22 @@
+.item svg {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.item svg:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.item ul {
+    text-align: right;
+}
+
+.author {
+    text-align: right;
+    font-weight: 500;
+    font-size: 12px;
+}

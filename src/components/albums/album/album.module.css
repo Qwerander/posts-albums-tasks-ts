@@ -1,0 +1,50 @@
+.item svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.item svg:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.item ul {
+    text-align: right;
+}
+
+.author {
+    text-align: right;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.item {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    padding: 10px !important;
+    position: relative;
+}
+
+.link {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.edit {
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    border-radius: 10px;
+}
