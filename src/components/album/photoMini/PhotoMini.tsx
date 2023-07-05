@@ -19,7 +19,7 @@ export const PhotoMini = ({ photo }: IPhotoMini) => {
                     style={{ cursor: 'pointer' }}
                     onClick={() => setIsModalOpen(true)}
                 >
-                    <img src={photo.thumbnaiUrl} alt={photo.title} />
+                    <img src={photo.thumbnailUrl} alt={photo.title} />
                     <p style={{ maxWidth: '150px' }} >{photo.title}</p>
                 </div>
             </List.Item>
