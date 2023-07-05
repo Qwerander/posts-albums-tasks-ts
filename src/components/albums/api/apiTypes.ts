@@ -30,7 +30,7 @@ export interface IPhoto {
     id: number
     title: string
     url: string
-    thumbnaiUrl: string
+    thumbnailUrl: string
 }
 
 export type PhotosType = Array<IPhoto>
